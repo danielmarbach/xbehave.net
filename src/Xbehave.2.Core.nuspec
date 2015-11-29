@@ -19,10 +19,55 @@ Installing this package installs xunit.core.</description>
     </dependencies>
   </metadata>
   <files>
-    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll" target="lib\portable-net45" />
-    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb" target="lib\portable-net45" />
-    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml" target="lib\portable-net45" />
-    <file src="Xbehave.2.Execution.desktop\bin\Release\Xbehave.Execution.desktop.dll" target="lib\portable-net45" />
-    <file src="Xbehave.2.Execution.desktop\bin\Release\Xbehave.Execution.desktop.pdb" target="lib\portable-net45" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\dotnet\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\dotnet\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\dotnet\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.dll"   target="lib\dotnet\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.pdb"   target="lib\dotnet\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\dnx451\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\dnx451\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\dnx451\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.dll"   target="lib\dnx451\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.pdb"   target="lib\dnx451\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\monoandroid\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\monoandroid\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\monoandroid\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.dll"   target="lib\monoandroid\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.pdb"   target="lib\monoandroid\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\monotouch\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\monotouch\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\monotouch\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.dll"   target="lib\monotouch\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.pdb"   target="lib\monotouch\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\net45\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\net45\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\net45\" />
+    <file src="Xbehave.2.Execution.desktop\bin\Release\Xbehave.Execution.desktop.dll" target="lib\net45\" />
+    <file src="Xbehave.2.Execution.desktop\bin\Release\Xbehave.Execution.desktop.pdb" target="lib\net45\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\portable-net45+win8+wp8+wpa81\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\portable-net45+win8+wp8+wpa81\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\portable-net45+win8+wp8+wpa81\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.dll"   target="lib\portable-net45+win8+wp8+wpa81\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.pdb"   target="lib\portable-net45+win8+wp8+wpa81\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\win8\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\win8\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\win8\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.dll"   target="lib\win8\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.pdb"   target="lib\win8\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\wp8\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\wp8\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\wp8\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.dll"   target="lib\wp8\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.pdb"   target="lib\wp8\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\wpa81\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\wpa81\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\wpa81\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.dll"   target="lib\wpa81\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.pdb"   target="lib\wpa81\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.dll"                           target="lib\xamarinios\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.pdb"                           target="lib\xamarinios\" />
+    <file src="Xbehave.2.Core\bin\Release\Xbehave.Core.xml"                           target="lib\xamarinios\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.dll"   target="lib\xamarinios\" />
+    <file src="Xbehave.2.Execution.dotnet\bin\Release\Xbehave.Execution.dotnet.pdb"   target="lib\xamarinios\" />
   </files>
 </package>
