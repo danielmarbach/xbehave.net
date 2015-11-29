@@ -46,6 +46,10 @@
     <AssemblyOriginatorKeyFile>..\Xbehave.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\Xbehave.2.Execution\ArgumentFormatter.cs">
+      <Link>ArgumentFormatter.cs</Link>
+      <ExcludeFromStyleCop>true</ExcludeFromStyleCop>
+    </Compile>
     <Compile Include="..\Xbehave.2.Execution\Properties\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
