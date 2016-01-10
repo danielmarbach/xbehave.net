@@ -3,6 +3,15 @@
   "version": 2,
   "targets": {
     "DNX,Version=v4.5.1": {
+      "LiteGuard/0.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/LiteGuard.dll": {}
+        },
+        "runtime": {
+          "lib/net35/LiteGuard.dll": {}
+        }
+      },
       "Microsoft.Dnx.Compilation.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -133,6 +142,29 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "StyleCop.MSBuild/4.7.49.1": {
+        "type": "package"
+      },
+      "Xbehave.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "StyleCop.MSBuild": "4.7.49.1",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0"
+        }
+      },
+      "Xbehave.Execution.dotnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "LiteGuard": "0.11.0",
+          "Xbehave.Core": "1.0.0",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0",
+          "xunit.extensibility.execution": "2.1.0"
+        }
+      },
       "xunit/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -244,6 +276,9 @@
       }
     },
     "DNXCore,Version=v5.0": {
+      "LiteGuard/0.11.0": {
+        "type": "package"
+      },
       "Microsoft.Dnx.Compilation.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -393,6 +428,9 @@
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
+      },
+      "StyleCop.MSBuild/4.7.49.1": {
+        "type": "package"
       },
       "System.Collections/4.0.11-beta-23516": {
         "type": "package",
@@ -960,6 +998,26 @@
           "lib/dotnet5.4/System.Xml.XDocument.dll": {}
         }
       },
+      "Xbehave.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "StyleCop.MSBuild": "4.7.49.1",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0"
+        }
+      },
+      "Xbehave.Execution.dotnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "LiteGuard": "0.11.0",
+          "Xbehave.Core": "1.0.0",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0",
+          "xunit.extensibility.execution": "2.1.0"
+        }
+      },
       "xunit/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -1124,6 +1182,15 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
+      "LiteGuard/0.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/LiteGuard.dll": {}
+        },
+        "runtime": {
+          "lib/net35/LiteGuard.dll": {}
+        }
+      },
       "Microsoft.Dnx.Compilation.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1252,6 +1319,29 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "StyleCop.MSBuild/4.7.49.1": {
+        "type": "package"
+      },
+      "Xbehave.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "StyleCop.MSBuild": "4.7.49.1",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0"
+        }
+      },
+      "Xbehave.Execution.dotnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "LiteGuard": "0.11.0",
+          "Xbehave.Core": "1.0.0",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0",
+          "xunit.extensibility.execution": "2.1.0"
         }
       },
       "xunit/2.1.0": {
@@ -1365,6 +1455,15 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
+      "LiteGuard/0.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/LiteGuard.dll": {}
+        },
+        "runtime": {
+          "lib/net35/LiteGuard.dll": {}
+        }
+      },
       "Microsoft.Dnx.Compilation.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1495,6 +1594,29 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "StyleCop.MSBuild/4.7.49.1": {
+        "type": "package"
+      },
+      "Xbehave.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "StyleCop.MSBuild": "4.7.49.1",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0"
+        }
+      },
+      "Xbehave.Execution.dotnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "LiteGuard": "0.11.0",
+          "Xbehave.Core": "1.0.0",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0",
+          "xunit.extensibility.execution": "2.1.0"
+        }
+      },
       "xunit/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -1606,6 +1728,9 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
+      "LiteGuard/0.11.0": {
+        "type": "package"
+      },
       "Microsoft.Dnx.Compilation.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1973,6 +2098,9 @@
         "runtime": {
           "runtimes/win7/lib/DNXCore50/System.Threading.dll": {}
         }
+      },
+      "StyleCop.MSBuild/4.7.49.1": {
+        "type": "package"
       },
       "System.Collections/4.0.11-beta-23516": {
         "type": "package",
@@ -2687,6 +2815,26 @@
           "lib/dotnet5.4/System.Xml.XDocument.dll": {}
         }
       },
+      "Xbehave.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "StyleCop.MSBuild": "4.7.49.1",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0"
+        }
+      },
+      "Xbehave.Execution.dotnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "LiteGuard": "0.11.0",
+          "Xbehave.Core": "1.0.0",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0",
+          "xunit.extensibility.execution": "2.1.0"
+        }
+      },
       "xunit/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -2851,6 +2999,9 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x64": {
+      "LiteGuard/0.11.0": {
+        "type": "package"
+      },
       "Microsoft.Dnx.Compilation.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -3218,6 +3369,9 @@
         "runtime": {
           "runtimes/win7/lib/DNXCore50/System.Threading.dll": {}
         }
+      },
+      "StyleCop.MSBuild/4.7.49.1": {
+        "type": "package"
       },
       "System.Collections/4.0.11-beta-23516": {
         "type": "package",
@@ -3932,6 +4086,26 @@
           "lib/dotnet5.4/System.Xml.XDocument.dll": {}
         }
       },
+      "Xbehave.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "StyleCop.MSBuild": "4.7.49.1",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0"
+        }
+      },
+      "Xbehave.Execution.dotnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETPortable,Version=v4.5,Profile=Profile259",
+        "dependencies": {
+          "LiteGuard": "0.11.0",
+          "Xbehave.Core": "1.0.0",
+          "xunit.abstractions": "2.0.0",
+          "xunit.extensibility.core": "2.1.0",
+          "xunit.extensibility.execution": "2.1.0"
+        }
+      },
       "xunit/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -4097,6 +4271,39 @@
     }
   },
   "libraries": {
+    "Xbehave.Core/1.0.0": {
+      "type": "project",
+      "path": "../../wrap/Xbehave.Core/project.json"
+    },
+    "Xbehave.Execution.dotnet/1.0.0": {
+      "type": "project",
+      "path": "../../wrap/Xbehave.Execution.dotnet/project.json"
+    },
+    "LiteGuard/0.11.0": {
+      "type": "package",
+      "sha512": "g8JAk8+wnAREBOGiG9mVgpCbvo2vLgpDRvFwS/6oKUmAUr6jfyAlnL3e4+779uKYAmReZCLMsl48EodK3d6ghw==",
+      "files": [
+        "lib/net35/LiteGuard.dll",
+        "lib/net35/LiteGuard.xml",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/LiteGuard.dll",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/LiteGuard.xml",
+        "lib/portable-wpa81+win81/LiteGuard.dll",
+        "lib/portable-wpa81+win81/LiteGuard.xml",
+        "lib/sl5/LiteGuard.dll",
+        "lib/sl5/LiteGuard.xml",
+        "lib/win8/LiteGuard.dll",
+        "lib/win8/LiteGuard.xml",
+        "lib/win81/LiteGuard.dll",
+        "lib/win81/LiteGuard.xml",
+        "lib/wp8/LiteGuard.dll",
+        "lib/wp8/LiteGuard.xml",
+        "lib/wpa81/LiteGuard.dll",
+        "lib/wpa81/LiteGuard.xml",
+        "LiteGuard.0.11.0.nupkg",
+        "LiteGuard.0.11.0.nupkg.sha512",
+        "LiteGuard.nuspec"
+      ]
+    },
     "Microsoft.Dnx.Compilation.Abstractions/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -4460,6 +4667,33 @@
         "runtimes/win7/lib/DNXCore50/System.Threading.dll",
         "runtimes/win7/lib/netcore50/System.Threading.dll",
         "runtimes/win8-aot/lib/netcore50/System.Threading.dll"
+      ]
+    },
+    "StyleCop.MSBuild/4.7.49.1": {
+      "type": "package",
+      "sha512": "gXJ3zyOS5R4MSGK9lxLyUwghK8lSyncNxoZZwFHssdwCDnj+lgx5gcuF5W2yOnAHl5GDV0e+1H4uRdwd+FPqZA==",
+      "files": [
+        "build/StyleCop.MSBuild.Targets",
+        "license.txt",
+        "StyleCop.MSBuild.4.7.49.1.nupkg",
+        "StyleCop.MSBuild.4.7.49.1.nupkg.sha512",
+        "StyleCop.MSBuild.nuspec",
+        "tools/CustomDictionary.en-GB.xml",
+        "tools/CustomDictionary.en-US.xml",
+        "tools/CustomDictionary.xml",
+        "tools/de-DE/StyleCop.CSharp.Rules.resources.dll",
+        "tools/en-GB/StyleCop.CSharp.Rules.resources.dll",
+        "tools/fr-FR/StyleCop.CSharp.Rules.resources.dll",
+        "tools/mssp7en.dll",
+        "tools/mssp7en.lex",
+        "tools/pl-PL/StyleCop.CSharp.Rules.resources.dll",
+        "tools/pt-BR/StyleCop.CSharp.Rules.resources.dll",
+        "tools/ru-RU/StyleCop.CSharp.Rules.resources.dll",
+        "tools/Settings.StyleCop",
+        "tools/StyleCop.CSharp.dll",
+        "tools/StyleCop.CSharp.Rules.dll",
+        "tools/StyleCop.dll",
+        "tools/StyleCopSettingsEditor.exe"
       ]
     },
     "System.Collections/4.0.11-beta-23516": {
@@ -6745,9 +6979,14 @@
       "xunit >= 2.1.0-*",
       "xunit.runner.dnx >= 2.1.0-*"
     ],
-    "DNX,Version=v4.5.1": [],
+    "DNX,Version=v4.5.1": [
+      "Xbehave.Core >= 1.0.0-*",
+      "Xbehave.Execution.dotnet >= 1.0.0-*"
+    ],
     "DNXCore,Version=v5.0": [
-      "System.Runtime >= 4.0.21-beta-23516"
+      "System.Runtime >= 4.0.21-beta-23516",
+      "Xbehave.Core >= 1.0.0-*",
+      "Xbehave.Execution.dotnet >= 1.0.0-*"
     ]
   }
 }

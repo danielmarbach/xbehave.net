@@ -17,5 +17,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <ProduceOutputsOnBuild>True</ProduceOutputsOnBuild>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Xbehave.2.Core\Xbehave.2.Core.csproj" />
+    <ProjectReference Include="..\..\Xbehave.2.Execution.dotnet\Xbehave.2.Execution.dotnet.csproj" />
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>

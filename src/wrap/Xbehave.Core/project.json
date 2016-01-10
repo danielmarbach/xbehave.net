@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45+win+wpa81+wp80": {
+      "wrappedProject": "../../Xbehave.2.Core/Xbehave.2.Core.csproj",
+      "bin": {
+        "assembly": "../../Xbehave.2.Core/obj/{configuration}/Xbehave.Core.dll",
+        "pdb": "../../Xbehave.2.Core/obj/{configuration}/Xbehave.Core.pdb"
+      },
+      "dependencies": {
+        "StyleCop.MSBuild": "4.7.49.1",
+        "xunit.abstractions": "2.0.0",
+        "xunit.extensibility.core": "2.1.0"
+      }
+    }
+  }
+}

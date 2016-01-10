@@ -50,6 +50,9 @@
     <AssemblyOriginatorKeyFile>..\Xbehave.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\Xbehave.2.Execution.desktop\Guard.cs">
+      <Link>Guard.cs</Link>
+    </Compile>
     <Compile Include="..\Xbehave.2.Execution\ArgumentFormatter.cs">
       <Link>ArgumentFormatter.cs</Link>
       <ExcludeFromStyleCop>true</ExcludeFromStyleCop>
@@ -111,7 +114,6 @@
     <Compile Include="..\Xbehave.2.Execution\StepRunner.cs">
       <Link>StepRunner.cs</Link>
     </Compile>
-    <Compile Include="Guard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Xbehave.snk">

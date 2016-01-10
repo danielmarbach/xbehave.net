@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45+win+wpa81+wp80": {
+      "wrappedProject": "../../Xbehave.2.Execution.dotnet/Xbehave.2.Execution.dotnet.csproj",
+      "bin": {
+        "assembly": "../../Xbehave.2.Execution.dotnet/obj/{configuration}/Xbehave.Execution.dotnet.dll",
+        "pdb": "../../Xbehave.2.Execution.dotnet/obj/{configuration}/Xbehave.Execution.dotnet.pdb"
+      },
+      "dependencies": {
+        "LiteGuard": "0.11.0",
+        "xunit.abstractions": "2.0.0",
+        "xunit.extensibility.core": "2.1.0",
+        "xunit.extensibility.execution": "2.1.0",
+        "Xbehave.Core": "1.0.0-*"
+      }
+    }
+  }
+}
